@@ -1,0 +1,91 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background: #008080;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* Secciones principales */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    border-bottom: 2px solid #008080;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Formulario de filtros */
+  #filtros label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  #filtros select,
+  #filtros button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #filtros button {
+    background: #008080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #filtros button:hover {
+    background: #006666;
+  }
+  
+  /* Lista de resultados */
+  #listaRecetas {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #listaRecetas li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #listaRecetas h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  #listaRecetas ul {
+    margin: 0;
+    padding: 0;
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
